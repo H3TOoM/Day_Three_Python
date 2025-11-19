@@ -120,3 +120,16 @@
 ## Allhu Akbar :) 
 ## See you in the next lesson :)
 ## Goodbye!
+
+## Simple QR Code for fun :)
+# import qrcode
+
+# url = input("Enter URL to generate QR Code: ").strip()
+# file_path = "D:\\qrcode.png"
+
+# qr = qrcode.QRCode()
+# qr.add_data(url)
+# qr.make(fit=True)
+
+# img = qr.make_image(fill_color="black", back_color="white")
+# img.save(file_path)
